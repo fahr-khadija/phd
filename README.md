@@ -29,7 +29,7 @@ The PhD, also known as the Doctor of Philosophy, is a research degree
  ### Introduction to iverilog and Yosys
  - RTL design:it is set of Verilog code which has intended functionality to meet with the required specification.
  - Iverilog simulator flow:
-    -![image](https://user-images.githubusercontent.com/88780019/154971298-b6f5dd2d-2e04-46ba-9232-e130a0d7e9d3.png)
+    -![image](https://user-images.githubusercontent.com/100168693/155184443-8ceef1a1-2310-48ed-a48e-a52f2a902ad3.jpeg)
 
     
  - LAB activity:
