@@ -1,7 +1,9 @@
 # phd
 The PhD, also known as the Doctor of Philosophy, is a research degree
 ## Table of Contents
-* [Day 1: Introduction to iverilog and Yosys](https://github.com/khadijafahr/phd#day-1)
+* [Day 1: Introduction to iverilog and Yosys](https://github.com/fahr-khadija/phd#day-1)
+  - [Preliminary Tasks](https://github.com/fahr-khadija/phd#preliminary-tasks)
+
 * ## DAY 1
  ### Introduction to iverilog and Yosys
  - RTL design:it is set of Verilog code which has intended functionality to meet with the required specification.
