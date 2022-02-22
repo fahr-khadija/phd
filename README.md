@@ -155,11 +155,15 @@ Firstly, we have to clone 2 separate repositories namely [vsdflow](https://githu
   
   ![This is an image](../main/images/Capture41.PNG)
   
-  Now, the standard sequence of commands are executed in the Yosys prompt i.e. `read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib`, `read_verilog multiple_modules.v`, `synth -top multiple_modules`, `abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib`, `show multiple_modules` and `write_verilog -noattr multiple_modules_hier.v`. A noticeable difference can be observed in the dot viewer and in `multiple_modules_hier.v`. The submodules are preserved and they don't get flattened to gates by default, leading to hierarchical nature of the modules.
+  Now, the standard sequence of commands are executed in the Yosys prompt i.e.
+  `read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib`, 
+  `read_verilog multiple_modules.v`, `synth -top multiple_modules`, 
+  `abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib`,
+  `show multiple_modules`;
+  `write_verilog -noattr multiple_modules_hier.v` ;
+  A noticeable difference can be observed in the dot viewer and in `multiple_modules_hier.v`. The submodules are preserved and they don't get flattened to gates by default, leading to hierarchical nature of the modules.
   
-  <details><summary><b><u><ins>Click here to check the standard yosys commands!</ins></u></b></summary>
-  <p>
-
+ 
   ![This is an image](../main/images/Capture42.PNG)
   
   ![This is an image](../main/images/Capture43.PNG)
@@ -179,7 +183,10 @@ Firstly, we have to clone 2 separate repositories namely [vsdflow](https://githu
   
   > Trivia: From the above image, it's worth noting how OR logic need not get sythesized to OR gate.
   
-  On the other hand, we can use `flatten` in the prompt to eliminate the hierarchies leading to flat synthesis. `show` can be used to view the gate level netlist. `write_verilog -noattr multiple_modules_flat.v` is used to generate verilog files corresponding to the netlist.
+  On the other hand, we can use 
+  `flatten` in the prompt to eliminate the hierarchies leading to flat synthesis. 
+  `show` can be used to view the gate level netlist. 
+  `write_verilog -noattr multiple_modules_flat.v` is used to generate verilog files corresponding to the netlist.
   
   ![This is an image](../main/images/Capture48.PNG)
   
