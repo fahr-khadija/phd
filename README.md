@@ -1,7 +1,6 @@
-<img src="images/Verilog-flyer.png">
-# phd
-The PhD, also known as the Doctor of Philosophy, is a research degree
 
+# phd
+-![image](https://user-images.githubusercontent.com/100168693/155199764-54463945-84e3-4304-ba8b-169961a0827f.png)
 ## Table Of Contents 
 * [Day 1: Introduction to iverilog and Yosys](https://github.com/fahr-khadija/phd#day-1)
 * [Preliminary Tasks](https://github.com/fahr-khadija/phd#preliminary-tasks)
