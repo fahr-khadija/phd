@@ -8,7 +8,8 @@
 ## Table Of Contents 
  
   * ### [Day1  Introduction to Verilog RTL Design & Synthesis](https://github.com/Fahr-khadija/phd#day-1----introduction-to-verilog-rtl-design-and-synthesis)
-    * #### [Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#1-setup the lab instance with libraries and verilog files)
+    * #### [Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#setup the lab instance with libraries and verilog files)
+    * #### [Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#setup-the-lab-instance-with-libraries-and-verilog-files)
     * #### [iverilog Simulation of 2:1 MUX RTL Design](https://github.com/Fahr-khadija/phd#2-simulation-using-iverilog-simulator---21-multiplexer-rtl-design)
     * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#3-synthesis-using-yosys-open-source-tool)
   * ### [Day2  Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles](https://github.com/Fahr-khadija/phd#day-2---timing-libs-hierarchical-vs-flat-synthesis--efficient-flipflop-coding-styles)
@@ -42,7 +43,7 @@ RTL Design consists of an actual verilog code / a set of verilog codes that have
 Testbench is a setup that one uses to apply a set of stimuli (test-case vector) to check the functional working of the design file.
 The simulator is loaded with the design and its respective testbench file after which it looks for changes in the input signals and depending on the change, the output is evaluated. These changes in input and corresponding output values are dumped in a special format file called "value change dump" (.vcd) file. This file can be pictorially represented in waveforms using a waveform tool like gtkwave. 
 
-### 1-Setup the lab instance with libraries and verilog files
+### Setup the lab instance with libraries and verilog files
 
 We start by cloning 2 separate repositories namely [vsdflow] and [sky130RTLDesignAndSynthesisWorkshop]
 
