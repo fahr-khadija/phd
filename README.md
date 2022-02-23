@@ -8,9 +8,9 @@
 ## Table Of Contents 
  
   * ### [Day1  Introduction to Verilog RTL Design & Synthesis](https://github.com/Fahr-khadija/phd#day-1----introduction-to-verilog-rtl-design-and-synthesis)
-    * #### [1 Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#-1-setup-the-lab-instance-with-libraries-and-verilog-files)
-    * #### [2 iverilog Simulation of 2:1 MUX RTL Design](https://github.com/Fahr-khadija/phd#-2-simulation-using-iverilog-simulator---21-multiplexer-rtl-design)
-    * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#-3----synthesis-using-yosys-open-source-tool)
+    * #### [1 Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#1-setup-the-lab-instance-with-libraries-and-verilog-files)
+    * #### [2 iverilog Simulation of 2:1 MUX RTL Design](https://github.com/Fahr-khadija/phd#2-simulation-using-iverilog-simulator---21-multiplexer-rtl-design)
+    * #### [3 Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#3-synthesis-using-yosys-open-source-tool)
   * ### [Day2  Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles](https://github.com/Fahr-khadija/phd#day-2---timing-libs-hierarchical-vs-flat-synthesis--efficient-flipflop-coding-styles)
     * #### [The .lib file](https://github.com/Fahr-khadija/phd#-1---.lib-file)
     * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#-2---hierarchical-vs-flat-synthesis)
