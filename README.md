@@ -13,6 +13,9 @@
     * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#synthesis-using-yosys-open-source-tool)
   * ### [Day2  Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles](https://github.com/Fahr-khadija/phd#day-2---timing-libs-hierarchical-vs-flat-synthesis--efficient-flipflop-coding-styles)
     * #### [The library .lib file](https://github.com/Fahr-khadija/phd#library-.lib-file)
+    * #### [The .lib file](https://github.com/Fahr-khadija/phd#more-about-the-.lib-file)
+    * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#part-2---hierarchical-vs-flat-synthesis)
+
     * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#hierarchical-vs-flat-synthesis)
     * #### [Efficient Flipflop Coding Styles & Optimizations](https://github.com/Fahr-khadija/phd#-3---efficient-flip-flop-coding-styles-and-optimizations)
   * ### [Day3  Combinational & Sequentail Optimizations](https://github.com/Fahr-khadija/phd#day-3---combinational-and-sequential-optimizations)
@@ -127,12 +130,13 @@ yosys> show                                                                     
 The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated to a gate level representation using buffers, 2 input NAND gate , and OR gate and an o21ai_0 (OR,AND  & NOT gate) 
 
 ----
-### My notes in Day1 
+### My notes for Day1 
 
 <img src="images/Day1 note">
 
 ## Day 2 - Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles
 
+### More about the .lib file
 ### library .lib file
 
 We have seen that a .lib file is a collection of different flavours of standard cells with nets. In this workshop, we use the **sky130_fd_sc_hd_tt_025C_1v80.lib**. Looking in depth into the naming of this lib file, it denotes the following:
