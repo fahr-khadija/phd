@@ -12,8 +12,9 @@
     * #### [Simulation using iverilog Tool](https://github.com/Fahr-khadija/phd#simulation-using-iverilog-open-source-tool)
     * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#synthesis-using-yosys-open-source-tool)
   * ### [Day2  Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles](https://github.com/Fahr-khadija/phd#day-2---timing-libs-hierarchical-vs-flat-synthesis--efficient-flipflop-coding-styles)
+  * * #### [The .lib file](https://github.com/Fahr-khadija/phd#part-1---more-about-the-lib-file)
     * #### [The library .lib file](https://github.com/Fahr-khadija/phd#library-.lib-file)
-    * #### [The .lib file](https://github.com/Fahr-khadija/phd#more-about-the-.lib-file)
+    * #### [The .lib file](https://github.com/Fahr-khadija/phd#more-about-the-lib-file)
     * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#part-2---hierarchical-vs-flat-synthesis)
 
     * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#hierarchical-vs-flat-synthesis)
@@ -135,7 +136,7 @@ The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated 
 <img src="images/Day1 note">
 
 ## Day 2 - Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles
-
+### Part 1 - More about the .lib file
 ### More about the .lib file
 ### library .lib file
 
