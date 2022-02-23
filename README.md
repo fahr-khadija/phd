@@ -120,17 +120,10 @@ yosys> show                                                                     
 
 ```
 
-#### Screenshots of the Sysnthesis procedure using YOSYS
+####  Sysnthesis of using YOSYS
 
-<img src="images/yosys_read_liberty.jpg">
+-![image](https://user-images.githubusercontent.com/100168693/155406456-b6b975bd-1b9d-45ca-8b4a-e7560417e0a9.jpg)
 
-<img src="images/read_verilog_synth.jpg">
-
-<img src="images/abc_liberty.jpg">
-
-<img src="images/nets_cells.jpg">
-
-<img src="images/Yosys_Netlist_good_mux.jpg">
 
 The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated to a gate level representation using buffers, 2 input NAND gate , and OR gate and an o21ai_0 (OR,AND  & NOT gate) 
 
@@ -138,6 +131,8 @@ The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated 
 ### My notes for Day1 
 
 <img src="images/Day1 note">
+
+
 
 ## Day 2 - Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles
 ### More about the library .lib file 
