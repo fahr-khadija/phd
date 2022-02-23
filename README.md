@@ -73,11 +73,25 @@ The repository "vsdflow" contains relevant tools for this workshop and "sky130RT
 
 
 
+
+
+
 ### Synthesis using YOSYS open source tool
 
 After simulation of the rtl design with the respective testbench, we perform a synthesis of the design using Synthesizer. A Synthesizer is a tool used to convert the RTL Design into a netlist file (Standard Cell Format). an rtl file is a code that describes the functionality of the design and a netlist is a file that expresses the same code in the form of logic cells like logic gates, flipflops, multiplexers with net connections . 
 
 Here, we use a synthesizer tool called [YOSYS](https://github.com/YosysHQ/yosys) which is a part of Qflow (open-source) tool chain for complete RTL2GDS transformation. The basic input files to YOSYS include the RTL Design file and .lib (library) files. 
+
+
+
+
+-![image](https://user-images.githubusercontent.com/100168693/155407295-531a2b2f-5a2c-488f-89dc-fccaa320dc95.jpg)
+
+
+
+
+
+
 
 **What is a .lib file?**
 
@@ -120,7 +134,7 @@ yosys> show                                                                     
 
 ```
 
-####  Sysnthesis of using YOSYS
+####  Synthesis of good mux  using YOSYS
 
 -![image](https://user-images.githubusercontent.com/100168693/155406456-b6b975bd-1b9d-45ca-8b4a-e7560417e0a9.jpg)
 
@@ -134,9 +148,10 @@ The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated 
 
 
 
-## Day 2 - Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles
-### More about the library .lib file 
 
+## Day 2 - Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles
+
+### More about the library .lib file 
 
 We have seen that a .lib file is a collection of different flavours of standard cells with nets. In this workshop, we use the **sky130_fd_sc_hd_tt_025C_1v80.lib**. Looking in depth into the naming of this lib file, it denotes the following:
 
