@@ -10,7 +10,7 @@
   * ### [Day1  Introduction to Verilog RTL Design & Synthesis](https://github.com/Fahr-khadija/phd#day-1----introduction-to-verilog-rtl-design-and-synthesis)
     * #### [Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#setup-the-lab-instance-with-libraries-and-verilog-files)
     * #### [Simulation using iverilog Tool](https://github.com/Fahr-khadija/phd#simulation-using-iverilog-open-source-tool)
-    * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#3-synthesis-using-yosys-open-source-tool)
+    * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#synthesis-using-yosys-open-source-tool)
   * ### [Day2  Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles](https://github.com/Fahr-khadija/phd#day-2---timing-libs-hierarchical-vs-flat-synthesis--efficient-flipflop-coding-styles)
     * #### [The .lib file](https://github.com/Fahr-khadija/phd#-1---.lib-file)
     * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#-2---hierarchical-vs-flat-synthesis)
@@ -53,7 +53,7 @@ The repository "vsdflow" contains relevant tools for this workshop and "sky130RT
 
 <img src="images/verilog_files.jpg">
 
-### Simulation using iverilog tool 
+### Simulation using iverilog open source tool 
  we perform a simulation run of 2:1 multiplexer rtl file namely good_mux.v and its corresponding testbench file tb_good_mux.v to obtain .vcd files and analyze the waveform in gtkwave to see the change in output instances with respect to change in input values. 
 
   iverilog good_mux.v tb_good_mux.v
@@ -65,7 +65,7 @@ The repository "vsdflow" contains relevant tools for this workshop and "sky130RT
 
 <img src="images/GTKWave_Mux_Waveform.jpg">
 
-### 3 -  Synthesis using YOSYS open-source tool
+### Synthesis using YOSYS open source tool
 
 After simulation of the rtl design with the respective testbench, we perform a synthesis of the design using Synthesizer. A Synthesizer is a tool used to convert the RTL Design into a netlist file (Standard Cell Format). an rtl file is a code that describes the functionality of the design and a netlist is a file that expresses the same code in the form of logic cells like logic gates, flipflops, multiplexers with net connections . 
 
