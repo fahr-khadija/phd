@@ -8,9 +8,8 @@
 ## Table Of Contents 
  
   * ### [Day1  Introduction to Verilog RTL Design & Synthesis](https://github.com/Fahr-khadija/phd#day-1----introduction-to-verilog-rtl-design-and-synthesis)
-    * #### [Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#setup the lab instance with libraries and verilog files)
     * #### [Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#setup-the-lab-instance-with-libraries-and-verilog-files)
-    * #### [iverilog Simulation of 2:1 MUX RTL Design](https://github.com/Fahr-khadija/phd#2-simulation-using-iverilog-simulator---21-multiplexer-rtl-design)
+    * #### [Simulation using iverilog Tool](https://github.com/Fahr-khadija/phd#simulation-using-iverilog-open-source-tool)
     * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#3-synthesis-using-yosys-open-source-tool)
   * ### [Day2  Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles](https://github.com/Fahr-khadija/phd#day-2---timing-libs-hierarchical-vs-flat-synthesis--efficient-flipflop-coding-styles)
     * #### [The .lib file](https://github.com/Fahr-khadija/phd#-1---.lib-file)
@@ -54,7 +53,7 @@ The repository "vsdflow" contains relevant tools for this workshop and "sky130RT
 
 <img src="images/verilog_files.jpg">
 
-### 2 - Simulation using iverilog simulator 
+### Simulation using iverilog tool 
  we perform a simulation run of 2:1 multiplexer rtl file namely good_mux.v and its corresponding testbench file tb_good_mux.v to obtain .vcd files and analyze the waveform in gtkwave to see the change in output instances with respect to change in input values. 
 
   iverilog good_mux.v tb_good_mux.v
