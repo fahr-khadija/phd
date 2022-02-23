@@ -1,92 +1,73 @@
 -![image](https://user-images.githubusercontent.com/100168693/155358491-c93aed5f-42ee-4172-9a51-184c94f4c33a.png)
 # Detail Report of my 5 days workshop in RTL design Verilog with SKY130 Technology.
-# Platform :Virtual machine 
+# Platform labs :Remote access in the portal
 # Technology :130nm
-# Open source tools: iverilog (simulator) , YOSYS (synthesis)
- 
+# Open source tools: iverilog (simulator) , YOSYS (synthesis) 
 -![image](https://user-images.githubusercontent.com/100168693/155199764-54463945-84e3-4304-ba8b-169961a0827f.png)
 
 ## Table Of Contents 
  
   * ### [Day1  Introduction to Verilog RTL Design & Synthesis](https://github.com/Fahr-khadija/phd#day-1----introduction-to-verilog-rtl-design-and-synthesis)
-    * #### [Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#part-1----setup-the-lab-instance-with-libraries-and-verilog-files)
-    * #### [iverilog Simulation of 2:1 MUX RTL Design](https://github.com/Fahr-khadija/phd#part-2---simulation-using-iverilog-simulator---21-multiplexer-rtl-design)
-    * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#part-3----synthesis-using-yosys-open-source-tool)
+    * #### [Setting up libraries & lab instances](https://github.com/Fahr-khadija/phd#-1----setup-the-lab-instance-with-libraries-and-verilog-files)
+    * #### [iverilog Simulation of 2:1 MUX RTL Design](https://github.com/Fahr-khadija/phd#-2---simulation-using-iverilog-simulator---21-multiplexer-rtl-design)
+    * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#-3----synthesis-using-yosys-open-source-tool)
   * ### [Day2  Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles](https://github.com/Fahr-khadija/phd#day-2---timing-libs-hierarchical-vs-flat-synthesis--efficient-flipflop-coding-styles)
-    * #### [The .lib file](https://github.com/Fahr-khadija/phd#part-1---more-about-the-lib-file)
-    * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#part-2---hierarchical-vs-flat-synthesis)
-    * #### [Efficient Flipflop Coding Styles & Optimizations](https://github.com/Fahr-khadija/phd#part-3---efficient-flip-flop-coding-styles-and-optimizations)
+    * #### [The .lib file](https://github.com/Fahr-khadija/phd#-1---.lib-file)
+    * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#-2---hierarchical-vs-flat-synthesis)
+    * #### [Efficient Flipflop Coding Styles & Optimizations](https://github.com/Fahr-khadija/phd#-3---efficient-flip-flop-coding-styles-and-optimizations)
   * ### [Day3  Combinational & Sequentail Optimizations](https://github.com/Fahr-khadija/phd#day-3---combinational-and-sequential-optimizations)
-    * #### [Intro to Combinational Logic Optimizations](https://github.com/Fahr-khadija/phd#part-1---intro-to-combinational-logic-optimizations)
-    * #### [Intro to Sequential Logic Optimizations](https://github.com/Fahr-khadija/phd#part-2---intro-to-sequential-logic-optimizations)
-    * #### [Sequential Logic Optimizations of Un-used Outputs](https://github.com/Fahr-khadija/phd#part-3---sequential-logic-optimizations-of-un-used-outputs)
+    * #### [Intro to Combinational Logic Optimizations](https://github.com/Fahr-khadija/phd#-1---intro-to-combinational-logic-optimizations)
+    * #### [Intro to Sequential Logic Optimizations](https://github.com/Fahr-khadija/phd#-2---intro-to-sequential-logic-optimizations)
+    * #### [Sequential Logic Optimizations of Un-used Outputs](https://github.com/Fahr-khadija/phd#-3---sequential-logic-optimizations-of-un-used-outputs)
   * ### [Day4  Gate Level Simulation (GLS), Blocking vs Non-blocking & Synthesis-Simulation Mismatch](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#day-4---gate-level-simulationgls-blocking-vs-non-blocking-and-synthesis-simulation-mismatch)
-    * #### [Gate Level Simulation (GLS)](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#part-1---what-is-gate-level-simulation-gls-)
-    * #### [Synthesis - Simulation Mismatches](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#part-2---synthesis---simulation-mismatches)
-    * #### [Blocking vs Non-blocking Assignments](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#blocking-vs-non-blocking-assignments)
+    * #### [Gate Level Simulation (GLS)](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#-1---what-is-gate-level-simulation-gls-)
+    * #### [Synthesis - Simulation Mismatches](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#-2---synthesis---simulation-mismatches)
+    * #### [Blocking vs Non-blocking Assignments](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#-3---blocking-vs-non-blocking-assignments)
   * ### [Day5  IF..CASE Statments & For Loop..For generate](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#ifcase-statments--for-loopfor-generate)
-    * #### [IF.. Statements](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#part-1---if-statements)
-    * #### [CASE.. Statements](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#part-2---case-statements)
-    * #### [FOR..loop vs FOR..GENERATE Statements](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#part-3---forloop-vs-forgenerate-statements)
-  * ### [ACKNOWLEDGEMENTS](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#acknowledgements)
-  * ### [References](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#references)
-
-
-
-* [Credits](https://github.com/fahr-khadija/phd#credits)
-* [References](https://github.com/fahr-khadija/phd#references)
+    * #### [IF.. Statements](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#-1---if-statements)
+    * #### [CASE.. Statements](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#-2---case-statements)
+    * #### [FOR..loop vs FOR..GENERATE Statements](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#-3---forloop-vs-forgenerate-statements)
+  
+  * ### [References](https://github.com/fahr-khadija/phd#references)
 
 
 
 
-## Day 1
-  ### Preliminary Tasks
- The first day covers the basics of RTL Design, Testbench, Simulation and Synthesis. Open-Source softwares like iverilog (simulator) and YOSYS (Synthesis) are provided through remote access in the portal to practice labs.
-
-RTL Design -  It consists of an actual verilog code / a set of verilog codes that have the functionality to meet the required design specifications of the circuit
-TestBench - Testbench is a setup that one uses to apply a set of stimuli (test-case vector) to check the functional working of the design file
-
-We do the above processes using a simulator software. The simulator is loaded with the design and its respective testbench file after which it looks for changes in the input signals and depending on the change, the output is evaluated. These changes in input and corresponding output values are dumped in a special format file called "value change dump" (.vcd) file. This file can be pictorially represented in waveforms using a waveform tool like gtkwave. 
+ 
 
 ## Day 1 -  Introduction to Verilog RTL Design and Synthesis
 
-The first day covers the basics of RTL Design, Testbench, Simulation and Synthesis. Open-Source softwares like iverilog (simulator) and YOSYS (Synthesis) are provided through remote access in the portal to practice labs.
+In the first day we learn  the basics of RTL Design, Testbench, Simulation and Synthesis. Open-Source tools iverilog and YOSYS .
+RTL Design consists of an actual verilog code / a set of verilog codes that have the functionality to meet the required design specifications of the circuit
+Testbench is a setup that one uses to apply a set of stimuli (test-case vector) to check the functional working of the design file.
+The simulator is loaded with the design and its respective testbench file after which it looks for changes in the input signals and depending on the change, the output is evaluated. These changes in input and corresponding output values are dumped in a special format file called "value change dump" (.vcd) file. This file can be pictorially represented in waveforms using a waveform tool like gtkwave. 
 
-RTL Design -  It consists of an actual verilog code / a set of verilog codes that have the functionality to meet the required design specifications of the circuit
-TestBench - Testbench is a setup that one uses to apply a set of stimuli (test-case vector) to check the functional working of the design file
+### 1  - Setup the lab instance with libraries and verilog files
 
-We do the above processes using a simulator software. The simulator is loaded with the design and its respective testbench file after which it looks for changes in the input signals and depending on the change, the output is evaluated. These changes in input and corresponding output values are dumped in a special format file called "value change dump" (.vcd) file. This file can be pictorially represented in waveforms using a waveform tool like gtkwave. 
+We start by cloning 2 separate repositories namely [vsdflow] and [sky130RTLDesignAndSynthesisWorkshop]
 
-### Part 1 -  Setup the lab instance with libraries and verilog files
+(git clone https://github.com/kunalg123/vsdflow.git) 
+(git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop)
 
-Firstly, we have to clone 2 separate repositories namely [vsdflow](https://github.com/kunalg123/vsdflow) and [sky130RTLDesignAndSynthesisWorkshop](https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop) which contain the required library files and verilog design files to perform the simulations and logic synthesis parts of the workshop. It can be done using basic linux command gitclone ex: git clone https://github.com/kunalg123/vsdflow.git .
-We are given a default set of files and libraries shown below to work on using the practical lab instance
+The repository "vsdflow" contains relevant tools for this workshop and "sky130RTLDesignAndSynthesisWorkshop" contains various pre-written verilog files, model files and .lib files using in  design flow.
 
 <img src="images/verilog_files.jpg">
 
-### Part 2 - Simulation using iverilog simulator - 2:1 multiplexer rtl design
+### 2 - Simulation using iverilog simulator 
+ we perform a simulation run of 2:1 multiplexer rtl file namely good_mux.v and its corresponding testbench file tb_good_mux.v to obtain .vcd files and analyze the waveform in gtkwave to see the change in output instances with respect to change in input values. 
 
-After cloning the respective repositories in our lab instance, we perform a simulation run of 2:1 multiplexer rtl file namely good_mux.v and its corresponding testbench file tb_good_mux.v to obtain .vcd files and analyze the waveform in gtkwave to see the change in output instances with respect to change in input values. 
+  iverilog good_mux.v tb_good_mux.v
+  ./a.out
+  gtkwave tb_good_mux.vcd
 
-#### Verilog file of a simple 2:1 multiplexer
-
-<img src="images/vim_good_mux.jpg">
-
-#### Verilog testbench file of the corresponding 2:1 multiplexer with stimuli
-
-<img src="images/vim_tb_good_mux.jpg">
-
-#### Simulation results using iverilog simulator
-
-<img src="images/goodmux_iverilog_simulation.jpg">
 
 #### Waveform using gtkwave
 
 <img src="images/GTKWave_Mux_Waveform.jpg">
 
-### Part 3 -  Synthesis using YOSYS open-source tool
+### 3 -  Synthesis using YOSYS open-source tool
 
-After simulation of the rtl design with the respective testbench, we perform a synthesis of the design using Synthesizer. A Synthesizer is a tool used to convert the RTL Design into a netlist file (Standard Cell Format). To be more specific, a **netlist** is a standard gate level file that consists of nets, sequential and combinational cells and their connectivity of the corresponding RTL file coded using a HDL. In simple words, an rtl file is a code that describes the functionality of the design and a netlist is a file that expresses the same code in the form of logic cells like logic gates, flipflops, multiplexers with net connections etc. 
+After simulation of the rtl design with the respective testbench, we perform a synthesis of the design using Synthesizer. A Synthesizer is a tool used to convert the RTL Design into a netlist file (Standard Cell Format). an rtl file is a code that describes the functionality of the design and a netlist is a file that expresses the same code in the form of logic cells like logic gates, flipflops, multiplexers with net connections . 
 
 Here, we use a synthesizer tool called [YOSYS](https://github.com/YosysHQ/yosys) which is a part of Qflow (open-source) tool chain for complete RTL2GDS transformation. The basic input files to YOSYS include the RTL Design file and .lib (library) files. 
 
@@ -106,10 +87,8 @@ All these different types of fast and slow cells are present in a .lib file to b
 
 #### Faster Cells vs Slower Cells
 
-A cell delay in the digital logic circuit depends on the load of the circuit which here is Capacitance. 
-
+A cell delay in the digital logic circuit depends on the load of the circuit which here is Capacitance.
 Faster the charging / discharging of the capacitance --> Lesser is the Cell Delay
-
 Inorder to charge/discharge the capacitance faster, we use wider transistors that can source more current. This will help us reduce the cell delay but at the same time, wider transistors consumer more power and area. Similarly, using narrower transistors help in reduced area and power but the circuit will have a higher cell delay. Hence, we have to compromise on area and power if we are to design a circuit with low cell delay.
 
 #### Constraints 
@@ -118,22 +97,19 @@ A Constraint is a guidance file given to a synthesizer inorder to enable an opti
 
 #### Practical Synthesis using YOSYS
 
-We perform a synthesis of the 2:1 Multiplexer RTL design using YOSYS with appropriate library files from SKY130 technology that we cloned into the directory. 
+We perform a synthesis of the 2:1 Multiplexer RTL design using YOSYS with appropriate library files from SKY130 technology cloned into the directory. 
 
 Coding scripts for Synthesis using YOSYS
 
 ```
+
 $yosys                                                                             --> invokes YOSYS tool
-
 yosys> read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib           --> reads the corresponding library file
-
 yosys> read_verilog good_mux.v                                                     --> reads the Verilog script
-
 yosys> synth -top good_mux                                                         --> reads the top level module
-
-yosys> abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib                    --> converts the logic file to netlist
-
+yosys> abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib                 --> converts the logic file to netlist
 yosys> show                                                                        --> Final netlist output display
+
 ```
 
 #### Screenshots of the Sysnthesis procedure using YOSYS
@@ -151,10 +127,13 @@ yosys> show                                                                     
 The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated to a gate level representation using buffers, 2 input NAND gate , and OR gate and an o21ai_0 (OR,AND  & NOT gate) 
 
 ----
+### My notes in Day1 
+
+<img src="images/Day1 note">
 
 ## Day 2 - Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles
 
-### Part 1 - More about the .lib file
+### 1 -  .lib file
 
 We have seen that a .lib file is a collection of different flavours of standard cells with nets. In this workshop, we use the **sky130_fd_sc_hd_tt_025C_1v80.lib**. Looking in depth into the naming of this lib file, it denotes the following:
 
