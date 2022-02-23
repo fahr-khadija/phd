@@ -30,7 +30,15 @@
 
   
   * ### [References](https://github.com/fahr-khadija/phd#references)
+  * 
+![tenerary operator mux sim with gls](https://user-images.githubusercontent.com/100168693/155408480-9643b9e3-6ee6-4f9b-badb-fe26e4
+![tenerary operator mux sim
+![tenerary operator mux synth](https://user-images.githubusercontent.com/100168693/155408515-c7681eed-e15d-4180-8de3-9b6ae271e000.jpg)
+![incomplet if](https://user-images.githubusercontent.com/100168693/155424149-8902651f-f121-41cf-a6
+![nor](https://user-images.githubusercontent.com/100168693/155424207-7df81e68-5227-4248-8f51-63c2c2ecc146.jpeg)
 
+![rtl design lib](https://user-images.githubusercontent.com/100168693/155424195-c18a7031-2189-4333-83c4-cdf0828c6ed3.jpeg)
+![opt](https://user-images.githubusercontent.com/100168693/155424197-a5bbd8d9-b477-4465-a7b1-b16767347ab2.jpeg)
 
 
 
@@ -317,7 +325,9 @@ In the above netlist, it can be seen that the asynchronous reset D-Flipflop is i
 
 ## My note for Day 2
 
-img
+![day2](https://user-images.githubusercontent.com/100168693/155424019-395010f9-323c-4ff1-8f50-c345f1429a0f.jpeg)
+
+
 
 ## Day 3 - Combinational and Sequential Optimizations
 
@@ -459,7 +469,12 @@ The above code is a 3-bit counter that increments from 0 to 7 whenever reset is 
 ---
 ### My note for Day 3
 
-<img src="images/counter_opt_net.jpg">
+![async sync flop](https://user-images.githubusercontent.com/100168693/155423996-e964de75-2e80-419e-ba60-5f90f4a82f96.jpeg)
+![bolen logic opt](https://user-images.githubusercontent.com/100168693/155423997-39139199-a940-45a3-b6a8-e2f7111505b9.jpeg)
+![day3 comb ](https://user-images.githubusercontent.com/100168693/155424053-e2d161d7-4fb8-48b6-8e33-39e47a3bbaf2.jpeg)
+
+
+
 
 ## Day 4 - Gate Level Simulation(GLS), Blocking vs Non-blocking and Synthesis-Simulation Mismatch
 
@@ -553,8 +568,14 @@ Therefore, ``` Always use blocking assignments for Combinational Logic & Non-blo
 ----
 
 ### My note for Day 4
-<img src="images/blocking_caveat_sim-wave.jpg">
 
+
+![day4 gls](https://user-images.githubusercontent.com/100168693/155424051-38cad2bb-8caf-4628-86f9-055fd442f96a.jpeg)
+![day4 gls 2](https://user-images.githubusercontent.com/100168693/155424048-b8e2afb5-c440-4083-aa1c-35d2add3c751.jpeg)
+![day4 gls](https://user-images.githubusercontent.com/100168693/155423993-86393353-f9b6-4199-9267-b29225045b71.jpeg)
+
+
+![flatten and hier](https://user-images.githubusercontent.com/100168693/155424095-cfb348f3-92b0-4382-ab2b-96e28b6a5a4d.jpeg)
 
 
 ## Day 5 - If.. Case Statements and for loop & for generate statements
@@ -661,8 +682,16 @@ An example of using for..generate statements is given below. We use generate sta
 Clearly, we can see that the RCA is working as intended and is implemented by 8 instantiations of Full Adders FA - denoted in the netlist output. 
 
 ----
+![for and for generated](https://user-images.githubusercontent.com/100168693/155424165-a7410c44-6481-4eca-934a-ecde9a8890d6.jpeg)
+97-c943fde74333.jpeg)
+![for and for generator](https://user-images.githubusercontent.com/100168693/155424151-3d49f45f-1905-41b6-8194-193e02351bfa.jpeg)
+![full adder](https://user-images.githubusercontent.com/100168693/155424154-e14a9058-c57d-4c3c-8e76-d8e5acc842c1.jpeg)
+![incomple ](https://user-images.githubusercontent.com/100168693/155424156-68b19c88-07c9-4ea4-8ba9-52ef6b98b5cf.jpeg)
+
 ### My note for Day 5
-<img src="images/blocking_caveat_sim-wave.jpg">
+![ff](https://user-images.githubusercontent.com/100168693/155424097-97f3f494-6028-4eb7-ad59-f0247cdd17d0.jpeg)
+![r for generate](https://user-images.githubusercontent.com/100168693/155424199-616f8c36-fa8d-4ea6-a894-4fb9472a23b9.jpeg)
+![lab opt](https://user-images.githubusercontent.com/100168693/155424175-a1cafd07-94ad-4d03-ab67-52d09f9279d9.jpeg)
 
 
 
