@@ -12,9 +12,9 @@
     * #### [Simulation using iverilog Tool](https://github.com/Fahr-khadija/phd#simulation-using-iverilog-open-source-tool)
     * #### [Synthesis using YOSYS Tool](https://github.com/Fahr-khadija/phd#synthesis-using-yosys-open-source-tool)
   * ### [Day2  Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles](https://github.com/Fahr-khadija/phd#day-2---timing-libs-hierarchical-vs-flat-synthesis--efficient-flipflop-coding-styles)
-    * #### [The .lib file](https://github.com/Fahr-khadija/phd#part-1---more-about-the-lib-file)
-    * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#part-2---hierarchical-vs-flat-synthesis)
-    * #### [Efficient Flipflop Coding Styles & Optimizations](https://github.com/Fahr-khadija/phd#part-3---efficient-flip-flop-coding-styles-and-optimizations)
+    * #### [The library .lib file](https://github.com/Fahr-khadija/phd#more-about-the-library-lib-file)
+    * #### [Hierarchical vs Flat Synthesis](https://github.com/Fahr-khadija/phd#hierarchical-vs-flat-synthesis)
+    * #### [Efficient Flipflop Coding Styles & Optimizations](https://github.com/Fahr-khadija/phd#efficient-flip-flop-coding-styles-and-optimizations)
 
   * ### [Day3  Combinational & Sequentail Optimizations](https://github.com/Fahr-khadija/phd#day-3---combinational-and-sequential-optimizations)
     * #### [Intro to Combinational Logic Optimizations](https://github.com/Fahr-khadija/phd#-1---intro-to-combinational-logic-optimizations)
@@ -133,7 +133,7 @@ The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated 
 <img src="images/Day1 note">
 
 ## Day 2 - Timing libs, Hierarchical vs Flat Synthesis & Efficient FlipFlop coding styles
-### Part 1 - More about the .lib file
+### More about the library .lib file 
 
 
 We have seen that a .lib file is a collection of different flavours of standard cells with nets. In this workshop, we use the **sky130_fd_sc_hd_tt_025C_1v80.lib**. Looking in depth into the naming of this lib file, it denotes the following:
@@ -168,7 +168,7 @@ For Example: A 2 input or gate has different flavours like or2_0, or2_1, or2_2 a
 
 Based on the above images, it can be inferred that eventhough the behavioral logic of both the 2-input-OR gates or2_0 and or2_4 are same, they differ in their internal parameters like leakage power and area. The higher area of or2_4 infers that it employs wider transistors thereby confirming that it is a ```fast cell```.
 
-### Part 2 - Hierarchical vs Flat Synthesis
+### Hierarchical vs Flat Synthesis
 
 Let us consider an example code ```multiple_modules``` which instantiates an ```AND``` & and ```OR``` gate logic in separate sub-modules ```sub_module1``` & ```sub_module2``` respectively. The verilog code for the same is displayed below:
 
@@ -237,7 +237,7 @@ When a design consists of multiple instances of the same module, we can use sub-
 
 When there is a very large complex design consisting of several modules, running a complete synthesis will cause to tool like ```YOSYS``` to not provide expected results. In such a case the massive design can be split into small fragments in terms of sub-modules and synthesized separately to obtain simple netlist files and stitch back to get the netlist file of the complex design.
 
-### Part 3 - Efficient Flip-flop coding styles and Optimizations
+### Efficient Flip-flop coding styles and Optimizations
 
 ```Flipflops``` are devices which store a single bit (binary digit) of data in two states '1' or '0'. One common application of these flipflops is in large combinational circuits to avoid **glitch** errors due to propagation delays between logic gates which cause instability in output. The most common types of flip-flops are D-Flipflop, SR-Flipflop, JK Flipflop, T-Flipflop. There are various different methods of implementing these flipflops like synchronous reset and synchronous set or asynchronous reset and set etc. Listed below are different implementation / coding style of D-flipflop with async-reset or sync-reset or async set etc. 
 
