@@ -139,15 +139,10 @@ The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated 
 We have seen that a .lib file is a collection of different flavours of standard cells with nets. In this workshop, we use the **sky130_fd_sc_hd_tt_025C_1v80.lib**. Looking in depth into the naming of this lib file, it denotes the following:
 
 fd --> Foundry
-
-sd --> Standard Cell
-
+sc --> Standard Cell
 hd --> High Density
-
 tt --> Typical Process
-
 025C --> Temperature 
-
 1v80 --> Voltage 
 
 Here, the tt_025C_1v80 denote the PVT (Process,Voltage & Temperature corners) of the library design. 
@@ -428,6 +423,9 @@ The above code is a 3-bit counter that increments from 0 to 7 whenever reset is 
 <img src="images/counter_opt_net.jpg">
 
 ---
+### My note for Day 3
+
+<img src="images/counter_opt_net.jpg">
 
 ## Day 4 - Gate Level Simulation(GLS), Blocking vs Non-blocking and Synthesis-Simulation Mismatch
 
@@ -519,6 +517,9 @@ The Synthesis-Simulation mismatch is evident from the descriptions in the wavefo
 Therefore, ``` Always use blocking assignments for Combinational Logic & Non-blocking assignments for Sequential Logic```
 
 ----
+
+### My note for Day 4
+<img src="images/blocking_caveat_sim-wave.jpg">
 
 ## Day 5 - If.. Case Statements and for loop & for generate statements
 
@@ -624,17 +625,15 @@ An example of using for..generate statements is given below. We use generate sta
 Clearly, we can see that the RCA is working as intended and is implemented by 8 instantiations of Full Adders FA - denoted in the netlist output. 
 
 ----
+### My note for Day 5
+<img src="images/blocking_caveat_sim-wave.jpg">
 
-## ACKNOWLEDGEMENTS
 
-* [Kunal Ghosh](https://github.com/kunalg123), Co-Founder [(VLSI SYSTEM DESIGN - VSD)](https://www.vlsisystemdesign.com/?v=a98eef2a3105)
-* [Shon Taware](https://github.com/ShonTaware)
 
 
 ## References
-
-* https://www.vlsisystemdesign.com/rtl-design-using-verilog-with-sky130-technology/?q=%2Frtl-design-using-verilog-with-sky130-technology%2F&v=a98eef2a3105
-* https://github.com/google/skywater-pdk
+* [vsdiat](http://vsdiat.com/)
+* [VLSI System Design](https://www.vlsisystemdesign.com/)
 * https://github.com/kunalg123/vsdflow
 * https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
 
