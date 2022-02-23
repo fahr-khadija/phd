@@ -20,7 +20,7 @@
     * #### [Intro to Sequential Logic Optimizations](https://github.com/Fahr-khadija/phd#part-2---intro-to-sequential-logic-optimizations)
     * #### [Sequential Logic Optimizations of Un-used Outputs](https://github.com/Fahr-khadija/phd#part-3---sequential-logic-optimizations-of-un-used-outputs)
   * ### [Day4  Gate Level Simulation (GLS), Blocking vs Non-blocking & Synthesis-Simulation Mismatch](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#day-4---gate-level-simulationgls-blocking-vs-non-blocking-and-synthesis-simulation-mismatch)
-        * #### [Gate Level Simulation (GLS)](https://github.com/Fahr-khadija/phd#part-1---what-is-gate-level-simulation-gls-)
+    * #### [Gate Level Simulation (GLS)](https://github.com/Fahr-khadija/phd#part-1---what-is-gate-level-simulation-gls-)
     * #### [Synthesis - Simulation Mismatches](https://github.com/Fahr-khadija/phd#part-2---synthesis---simulation-mismatches)
     * #### [Blocking vs Non-blocking Assignments](https://github.com/Fahr-khadija/phd#blocking-vs-non-blocking-assignments)
   * ### [Day5  IF..CASE Statments & For Loop..For generate](https://github.com/SrinathVelavan/SKY130-RTL-Design-Workshop#ifcase-statments--for-loopfor-generate)
