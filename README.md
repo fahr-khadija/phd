@@ -59,10 +59,7 @@ The repository "vsdflow" contains relevant tools for this workshop and "sky130RT
   ./a.out
   gtkwave tb_good_mux.vcd
 
-
-#### Waveform using gtkwave
-
-<img src="images/GTKWave_Mux_Waveform.jpg">
+-![image](https://user-images.githubusercontent.com/100168693/155404720-65751bfe-9a99-4106-8459-09c37bf3bcfa.jpg)
 
 ### Synthesis using YOSYS open source tool
 
