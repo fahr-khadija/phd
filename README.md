@@ -247,7 +247,7 @@ The flattened netlist and verilog module of the netlist file are obtained and li
 write_verilog -noattr multiple_modules_flat.v
 !gvim multiple_modules_flat.v
 ```
-
+https://user-images.githubusercontent.com/100168693/155408326-cadfffdd-71b4-4884-afc4-83348289f7de.jpg
 <img src="images/multiple_modules_flatten_netlist.jpg">
 
 <img src="images/multiple_modules_flat.jpg">
@@ -314,6 +314,11 @@ In the above netlist, it can be seen that the asynchronous reset D-Flipflop is i
 
 ----
 
+
+## My note for Day 2
+
+img
+
 ## Day 3 - Combinational and Sequential Optimizations
 
 ### Part 1 - Intro to Combinational Logic Optimizations
@@ -357,7 +362,6 @@ Thus, the complex ternary operator based equation is simplified into a simple xo
 
 The following pictures depict the various versions of combination logic expressions simplified using Combinational logic optimization techniques.
 
-<img src="images/opt_check234_code.jpg">
 
 ```
 $yosys
@@ -550,6 +554,8 @@ Therefore, ``` Always use blocking assignments for Combinational Logic & Non-blo
 
 ### My note for Day 4
 <img src="images/blocking_caveat_sim-wave.jpg">
+
+
 
 ## Day 5 - If.. Case Statements and for loop & for generate statements
 
