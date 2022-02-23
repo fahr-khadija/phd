@@ -52,8 +52,6 @@ We start by cloning 2 separate repositories namely [vsdflow] and [sky130RTLDesig
 
 The repository "vsdflow" contains relevant tools for this workshop and "sky130RTLDesignAndSynthesisWorkshop" contains various pre-written verilog files, model files and .lib files using in  design flow.
 
-<img src="images/verilog_files.jpg">
-
 ### Simulation using iverilog open source tool 
  we perform a simulation run of 2:1 multiplexer rtl file namely good_mux.v and its corresponding testbench file tb_good_mux.v to obtain .vcd files and analyze the waveform in gtkwave to see the change in output instances with respect to change in input values. 
 
