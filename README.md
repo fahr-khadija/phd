@@ -155,7 +155,7 @@ The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated 
 ----
 ### My notes for Day1 
 
-<img src="images/Day1 note">
+-![image](<img src="images/Day1 note">
 
 
 
@@ -178,6 +178,8 @@ Here, the tt_025C_1v80 denote the PVT (Process,Voltage & Temperature corners) of
 Upon opening the .lib file for reference using 
 
 ```gvim ../my_lib/lib/sky130_fd_sc_hd_tt_025C_1v80.lib```
+
+-![image](https://user-images.githubusercontent.com/100168693/155408269-598bbe05-894c-4fad-9f13-54a7ded164b5.jpg
 
 We get to see detailed parameter values of all the different flavours of standard cells (logic gates etc.). The parameters include the leakage power of each input value of the cell, area of the cell, cell footprint, cell leakage power, driver waveform etc. These parameters vary for each flavour of the same cell with the same functionality. 
 
