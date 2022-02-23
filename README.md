@@ -48,6 +48,7 @@ The simulator is loaded with the design and its respective testbench file after 
 We start by cloning 2 separate repositories namely [vsdflow] and [sky130RTLDesignAndSynthesisWorkshop]
 
 (git clone https://github.com/kunalg123/vsdflow.git) 
+
 (git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop)
 
 The repository "vsdflow" contains relevant tools for this workshop and "sky130RTLDesignAndSynthesisWorkshop" contains various pre-written verilog files, model files and .lib files using in  design flow.
@@ -66,6 +67,7 @@ The repository "vsdflow" contains relevant tools for this workshop and "sky130RT
  rtl of good_mux and tb_good_mux
  ```
  gvim  good_mux.v - tb_good_mux.v 
+ 
 ```
 
 -![image](https://user-images.githubusercontent.com/100168693/155404720-65751bfe-9a99-4106-8459-09c37bf3bcfa.jpg)
@@ -142,9 +144,10 @@ yosys> show                                                                     
 
 ```
 
-####  Synthesis of good mux  using YOSYS
+
 
 -![image](https://user-images.githubusercontent.com/100168693/155406456-b6b975bd-1b9d-45ca-8b4a-e7560417e0a9.jpg)
+
 
 
 The final sysnthesized netlist shows that the 2:1 multiplexer RTL is translated to a gate level representation using buffers, 2 input NAND gate , and OR gate and an o21ai_0 (OR,AND  & NOT gate) 
