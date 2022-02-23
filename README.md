@@ -54,12 +54,24 @@ The repository "vsdflow" contains relevant tools for this workshop and "sky130RT
 
 ### Simulation using iverilog open source tool 
  we perform a simulation run of 2:1 multiplexer rtl file namely good_mux.v and its corresponding testbench file tb_good_mux.v to obtain .vcd files and analyze the waveform in gtkwave to see the change in output instances with respect to change in input values. 
+ 
+ rtl of good_mux and tb_good_mux
+ ```
+ gvim  good_mux.v - tb_good_mux.v 
+```
 
+-![image](https://user-images.githubusercontent.com/100168693/155404720-65751bfe-9a99-4106-8459-09c37bf3bcfa.jpg)
+  
+```  
   iverilog good_mux.v tb_good_mux.v
   ./a.out
   gtkwave tb_good_mux.vcd
+```  
+  
+ 
+ -![image](https://user-images.githubusercontent.com/100168693/155404769-2cdf437a-e099-4327-9b13-2e37bf4d84d4.jpg)
 
--![image](https://user-images.githubusercontent.com/100168693/155404720-65751bfe-9a99-4106-8459-09c37bf3bcfa.jpg)
+
 
 ### Synthesis using YOSYS open source tool
 
