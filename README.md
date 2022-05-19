@@ -31,26 +31,6 @@
   
   * ### [References](https://github.com/fahr-khadija/phd#references)
   * 
-![tenerary operator mux sim with gls](https://user-images.githubusercontent.com/100168693/155408480-9643b9e3-6ee6-4f9b-badb-fe26e4
-![tenerary operator mux sim
-![tenerary operator mux synth](https://user-images.githubusercontent.com/100168693/155408515-c7681eed-e15d-4180-8de3-9b6ae271e000.jpg)
-![incomplet if](https://user-images.githubusercontent.com/100168693/155424149-8902651f-f121-41cf-a6
-![nor](https://user-images.githubusercontent.com/100168693/155424207-7df81e68-5227-4248-8f51-63c2c2ecc146.jpeg)
-
-![rtl design lib](https://user-images.githubusercontent.com/100168693/155424195-c18a7031-2189-4333-83c4-cdf0828c6ed3.jpeg)
-![opt](https://user-images.githubusercontent.com/100168693/155424197-a5bbd8d9-b477-4465-a7b1-b16767347ab2.jpeg)
-
-![dff const3synthwith abc](https://user-images.githubusercontent.com/100168693/155408294-2ccc90e6-a460-4bc2-974f-b3559e803e3d.jpg)
-![multiple module](https://user-images.githubusercontent.com/100168693/155408310-528eb4ad-bd03-434b-b7f4-aeff2a5c0efd.jpg)
-![multiple module-hier and flat](https://user-images.githubusercontent.com/100168693/155408326-cadfffdd-71b4-4884-afc4-83348289f7de.jpg)
-![multiple module-hier](https://user-images.githubusercontent.com/100168693/155408351-fa5997d9-19a3-41a0-8d69-002edd60a2b4.jpg)
-![mux generate sim](https://user-images.githubusercontent.com/100168693/155408365-768fb024-e44b-4e3e-bf4f-1dba6b0668ed.jpg)
-![mux generate synth](https://user-images.githubusercontent.com/100168693/155408380-1879160b-42ab-4765-bab5-7c08c5007d11.jpg)
-
-![opt check synth show](https://user-images.githubusercontent.com/100168693/155408397-98055ca9-5290-4a90-9531-995618df5ce1.jpg)
-![opt check3 synth show correct](https://user-images.githubusercontent.com/100168693/155408431-ce424ddf-80e3-4e25-a0fc-3b4d8d83494b.jpg)
-
-![opt check synth](https://user-images.githubusercontent.com/100168693/155408406-02d67eb8-eb18-48c2-884e-9646c9f61653.jpg)
 
  
 
@@ -713,6 +693,26 @@ Clearly, we can see that the RCA is working as intended and is implemented by 8 
 * https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
 
 
+![tenerary operator mux sim with gls](https://user-images.githubusercontent.com/100168693/155408480-9643b9e3-6ee6-4f9b-badb-fe26e4
+![tenerary operator mux sim
+![tenerary operator mux synth](https://user-images.githubusercontent.com/100168693/155408515-c7681eed-e15d-4180-8de3-9b6ae271e000.jpg)
+![incomplet if](https://user-images.githubusercontent.com/100168693/155424149-8902651f-f121-41cf-a6
+![nor](https://user-images.githubusercontent.com/100168693/155424207-7df81e68-5227-4248-8f51-63c2c2ecc146.jpeg)
+
+![rtl design lib](https://user-images.githubusercontent.com/100168693/155424195-c18a7031-2189-4333-83c4-cdf0828c6ed3.jpeg)
+![opt](https://user-images.githubusercontent.com/100168693/155424197-a5bbd8d9-b477-4465-a7b1-b16767347ab2.jpeg)
+
+![dff const3synthwith abc](https://user-images.githubusercontent.com/100168693/155408294-2ccc90e6-a460-4bc2-974f-b3559e803e3d.jpg)
+![multiple module](https://user-images.githubusercontent.com/100168693/155408310-528eb4ad-bd03-434b-b7f4-aeff2a5c0efd.jpg)
+![multiple module-hier and flat](https://user-images.githubusercontent.com/100168693/155408326-cadfffdd-71b4-4884-afc4-83348289f7de.jpg)
+![multiple module-hier](https://user-images.githubusercontent.com/100168693/155408351-fa5997d9-19a3-41a0-8d69-002edd60a2b4.jpg)
+![mux generate sim](https://user-images.githubusercontent.com/100168693/155408365-768fb024-e44b-4e3e-bf4f-1dba6b0668ed.jpg)
+![mux generate synth](https://user-images.githubusercontent.com/100168693/155408380-1879160b-42ab-4765-bab5-7c08c5007d11.jpg)
+
+![opt check synth show](https://user-images.githubusercontent.com/100168693/155408397-98055ca9-5290-4a90-9531-995618df5ce1.jpg)
+![opt check3 synth show correct](https://user-images.githubusercontent.com/100168693/155408431-ce424ddf-80e3-4e25-a0fc-3b4d8d83494b.jpg)
+
+![opt check synth](https://user-images.githubusercontent.com/100168693/155408406-02d67eb8-eb18-48c2-884e-9646c9f61653.jpg)
 
 
 
